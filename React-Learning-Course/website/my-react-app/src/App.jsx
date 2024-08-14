@@ -1,8 +1,9 @@
 import Header from "./Header"
 import Footer from "./Footer";
 import Card from "./Card";
-import Button from "./Button/Button"; // Styling with css, inline, external and modules
-import Student from "./Student";
+import Button from "./Button/Button.jsx"
+import Student from "./Student"
+import UserGreeting from "./UserGreeting";
 
 function App() {
   return(
@@ -11,7 +12,9 @@ function App() {
       <Card/><br/>
       <Student name="Patrik" age={21} isStudent={true}/><br/>
       <Student name="Peter" age={57} isStudent={false}/>
-      <Student/>
+      <Student/><br/><br/>
+      <UserGreeting isLoggedIn={true} name="Ashim"/>
+      <UserGreeting/>
       <Button/>
       <br/><br/><hr/>
       <Footer/>
