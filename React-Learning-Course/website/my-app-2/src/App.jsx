@@ -1,6 +1,8 @@
 import List from "./List"
 import Button from "./Button";
 import ProfilePic from "./ProfilePic";
+import MyComponent from "./MyComponent";
+import Counter from "./Counter";
 
 function App() {
 
@@ -18,12 +20,17 @@ function App() {
 
   return (
     <>
+    <h1>Counter</h1>
+    <Counter/>
+    <br/><br/><br/><br/>
       {fruits.length > 0 ? <List items={fruits} category="Fruits"/> : null}
       {veggies.length > 0 ? <List items={veggies} category="Vegetables"/> : null}
       {juices.length > 0 ? <List items={juices} category="Juices"/> : null}
       <br/><br/>
       <Button/>
       <ProfilePic/>
+      <br/><br/>
+      <MyComponent/>
     </>
   )
 }
