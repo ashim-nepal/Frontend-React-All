@@ -3,6 +3,7 @@ import Button from "./Button";
 import ProfilePic from "./ProfilePic";
 import MyComponent from "./MyComponent";
 import Counter from "./Counter";
+import OnChange from "./OnChange";
 
 function App() {
 
@@ -23,6 +24,8 @@ function App() {
     <h1>Counter</h1>
     <Counter/>
     <br/><br/><br/><br/>
+    <br/><br/><br/>
+    <OnChange/>
       {fruits.length > 0 ? <List items={fruits} category="Fruits"/> : null}
       {veggies.length > 0 ? <List items={veggies} category="Vegetables"/> : null}
       {juices.length > 0 ? <List items={juices} category="Juices"/> : null}
