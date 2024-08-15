@@ -1,5 +1,6 @@
 import List from "./List"
-
+import Button from "./Button";
+import ProfilePic from "./ProfilePic";
 
 function App() {
 
@@ -20,6 +21,9 @@ function App() {
       {fruits.length > 0 ? <List items={fruits} category="Fruits"/> : null}
       {veggies.length > 0 ? <List items={veggies} category="Vegetables"/> : null}
       {juices.length > 0 ? <List items={juices} category="Juices"/> : null}
+      <br/><br/>
+      <Button/>
+      <ProfilePic/>
     </>
   )
 }
