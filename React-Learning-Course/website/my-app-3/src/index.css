@@ -128,4 +128,16 @@ body{
 
 }
 
+/* Clock App*/
 
+.clock-container{
+    backdrop-filter: blur(50px);
+
+}
+
+.clock{
+    font-size: 6rem;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 3px 3px 5px black;
+}
