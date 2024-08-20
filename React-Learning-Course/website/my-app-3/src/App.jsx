@@ -1,6 +1,7 @@
 import ArrayObjectStateUpd from "./ArrayObjectStateUpd"
 import ArrayStateUpd from "./ArrayStateUpd"
 import ColorPicker from "./ColorPicker"
+import ComponentA from "./ComponentA"
 import DigitalClock from "./DigitalClock"
 import MyComponent from "./MyComponent"
 import ToDoList from "./ToDoList"
@@ -10,6 +11,10 @@ function App() {
 
   return (
     <>
+    <h1>Use Context Hook</h1>
+    <ComponentA/>
+
+    <br/><br/><br/><br/>
     <h1>Digital Clock</h1>
     <DigitalClock/>
     <br/><br/>

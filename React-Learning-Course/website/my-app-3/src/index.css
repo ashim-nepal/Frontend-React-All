@@ -141,3 +141,8 @@ body{
     text-align: center;
     text-shadow: 3px 3px 5px black;
 }
+
+.box{
+    border: 3px solid;
+    padding: 20px;
+}
