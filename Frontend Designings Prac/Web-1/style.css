@@ -75,6 +75,7 @@ section{
 
 .media-icons{
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .media-icons a{
@@ -83,3 +84,45 @@ section{
     margin: 60px;
     text-decoration: none;
 }
+
+.sec-03{
+    margin-bottom: 30px;
+}
+
+.section-title{
+    margin-top: 50px;
+    font-size: 3em;
+    margin-bottom: 80px;
+}
+
+.info-title{
+    font-size: 1.6em;
+    margin-bottom: 10px;
+}
+
+.info{
+    width: 700px;
+    margin-left: 50px;
+}
+
+
+.media-info{
+    width: 400px;
+    margin-left: 30px;
+}
+
+.media-info li{
+    list-style: none;
+    font-size: 1.5em;
+
+}
+
+.media-info li a{
+    color: white;
+    text-decoration: none;
+}
+
+.media-info li:not(:last-child){
+    margin-bottom: 50px;
+}
+
