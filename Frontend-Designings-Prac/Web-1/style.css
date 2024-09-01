@@ -5,6 +5,10 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: rgb(40, 40, 40);
 }
